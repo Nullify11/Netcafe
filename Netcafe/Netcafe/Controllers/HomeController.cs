@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace Netcafe.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -13,6 +14,7 @@ namespace Netcafe.Controllers
             return View();
         }
 
+        [Authorize(Roles = "Administrator")]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
