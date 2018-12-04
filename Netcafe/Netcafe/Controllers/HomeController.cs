@@ -28,5 +28,11 @@ namespace Netcafe.Controllers
 
             return View();
         }
+
+        public ActionResult PayPal()
+        {
+            ViewBag.Message = "Pay using PayPal:";
+            return View();
+        }
     }
 }
