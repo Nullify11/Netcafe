@@ -164,3 +164,6 @@ C:\Users\ChristianTerp\Documents\GitHub\Netcafe\Netcafe\Netcafe\obj\Debug\Netcaf
 C:\Users\ChristianTerp\Documents\GitHub\Netcafe\Netcafe\Netcafe\obj\Debug\Netcafe.csproj.CopyComplete
 C:\Users\ChristianTerp\Documents\GitHub\Netcafe\Netcafe\Netcafe\obj\Debug\Netcafe.dll
 C:\Users\ChristianTerp\Documents\GitHub\Netcafe\Netcafe\Netcafe\obj\Debug\Netcafe.pdb
+C:\Users\ChristianTerp\Documents\GitHub\Netcafe\Netcafe\Netcafe\obj\Debug\Netcafe.Migrations.InitialCreate.resources
+C:\Users\ChristianTerp\Documents\GitHub\Netcafe\Netcafe\Netcafe\obj\Debug\Netcafe.csproj.GenerateResource.cache
+C:\Users\ChristianTerp\Documents\GitHub\Netcafe\Netcafe\Netcafe\obj\Debug\Netcafe.Migrations.Name.resources
