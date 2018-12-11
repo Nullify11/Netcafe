@@ -73,20 +73,9 @@ namespace Netcafe.Controllers
                 return View(model);
             }
 
-
-            string loginString = model.UserName;
-            using (var context = new ApplicationDbContext())
-            {
-                var user = context.Users.FirstOrDefault(p => p.Email == model.UserName);
-                if(user != null)
-                {
-                    loginString = user.UserName;
-                }
-            }
-
                 // This doesn't count login failures towards account lockout
                 // To enable password failures to trigger account lockout, change to shouldLockout: true
-                var result = await SignInManager.PasswordSignInAsync(loginString, model.Password, model.RememberMe, shouldLockout: false);
+                var result = await SignInManager.PasswordSignInAsync(GetLoginUsernameOrEmail(model), model.Password, model.RememberMe, shouldLockout: false);
             switch (result)
             {
                 case SignInStatus.Success:
@@ -100,6 +89,20 @@ namespace Netcafe.Controllers
                     ModelState.AddModelError("", "Invalid login attempt.");
                     return View(model);
             }
+        }
+
+        private string GetLoginUsernameOrEmail(LoginViewModel model)
+        {
+            string loginString = model.UserName;
+            using (var context = new ApplicationDbContext())
+            {
+                var user = context.Users.FirstOrDefault(p => p.Email == model.UserName);
+                if (user != null)
+                {
+                    loginString = user.UserName;
+                }
+            }
+            return loginString;
         }
 
         //

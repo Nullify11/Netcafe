@@ -6,6 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using Netcafe.Models;
+using Microsoft.Owin.Security.OAuth;
 
 namespace Netcafe
 {
@@ -63,6 +64,7 @@ namespace Netcafe
             //    ClientId = "",
             //    ClientSecret = ""
             //});
+
         }
     }
 }
