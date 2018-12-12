@@ -4,3 +4,6 @@
 
 /.vs/Netcafe/v15/Server/sqlite3
 /Netcafe/.vs/Netcafe/v15/Server/sqlite3
+/.vs
+/Netcafe/Netcafe/obj/Release
+/Netcafe/packages/Newtonsoft.Json.7.0.1
