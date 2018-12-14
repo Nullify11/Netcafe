@@ -260,7 +260,7 @@ namespace Netcafe
                     Session["tempbooking"] = tempbookseat;
                 NumberOfSeats = Count;
                 Hours = hours.SelectedIndex;
-                    Response.Redirect("~/Home/PayPal");
+                    Response.Redirect("~/Home/PaymentWithPayPal");
                 }
             }
         

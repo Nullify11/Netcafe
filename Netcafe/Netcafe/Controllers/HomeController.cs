@@ -29,6 +29,12 @@ namespace Netcafe.Controllers
             return View();
         }
 
+        public ActionResult BookingView()
+        {
+            ViewBag.Message = "Your booking page";
+
+            return View();
+        }
         public ActionResult PaymentWithPaypal(string Cancel = null)
         {
             //getting the apiContext  
