@@ -4,6 +4,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Collections.Generic;
 
 namespace Netcafe.Models
 {
@@ -11,6 +12,8 @@ namespace Netcafe.Models
     public class ApplicationUser : IdentityUser
     {
         public string Name { get; set; }
+
+        public List<Booking> Bookings { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
@@ -32,5 +35,9 @@ namespace Netcafe.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Netcafe.Models.Booking> Bookings { get; set; }
+
+        public System.Data.Entity.DbSet<Netcafe.Models.Computer> Computers { get; set; }
     }
 }
