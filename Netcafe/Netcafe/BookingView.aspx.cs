@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace Netcafe
 {
-    public partial class Booking : System.Web.UI.Page
+    public partial class BookingView : System.Web.UI.Page
     {
         static int[] bookedseat;
         static int[] tempbookseat;

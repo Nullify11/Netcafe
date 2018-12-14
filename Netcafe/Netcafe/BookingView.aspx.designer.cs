@@ -10,7 +10,7 @@
 namespace Netcafe {
     
     
-    public partial class Booking {
+    public partial class BookingView {
         
         /// <summary>
         /// form1 control.

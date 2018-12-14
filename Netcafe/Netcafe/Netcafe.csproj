@@ -203,16 +203,18 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Booking.aspx.cs">
-      <DependentUpon>Booking.aspx</DependentUpon>
+    <Compile Include="BookingView.aspx.cs">
+      <DependentUpon>BookingView.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Booking.aspx.designer.cs">
-      <DependentUpon>Booking.aspx</DependentUpon>
+    <Compile Include="BookingView.aspx.designer.cs">
+      <DependentUpon>BookingView.aspx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ApplicationUsersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageBookingsController.cs" />
+    <Compile Include="Controllers\ManageComputersController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -261,7 +263,7 @@
     <Content Include="App_Data\aspnet-Netcafe-20181202021455_log.ldf">
       <DependentUpon>aspnet-Netcafe-20181202021455.mdf</DependentUpon>
     </Content>
-    <Content Include="Booking.aspx" />
+    <Content Include="BookingView.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -285,6 +287,16 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Views\ManageBookings\Create.cshtml" />
+    <Content Include="Views\ManageBookings\Delete.cshtml" />
+    <Content Include="Views\ManageBookings\Details.cshtml" />
+    <Content Include="Views\ManageBookings\Edit.cshtml" />
+    <Content Include="Views\ManageBookings\Index.cshtml" />
+    <Content Include="Views\ManageComputers\Create.cshtml" />
+    <Content Include="Views\ManageComputers\Delete.cshtml" />
+    <Content Include="Views\ManageComputers\Details.cshtml" />
+    <Content Include="Views\ManageComputers\Edit.cshtml" />
+    <Content Include="Views\ManageComputers\Index.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

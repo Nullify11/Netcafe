@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Booking.aspx.cs" Inherits="Netcafe.Booking" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="BookingView.aspx.cs" Inherits="Netcafe.BookingView" %>
 
 <!DOCTYPE html>
 
@@ -36,7 +36,7 @@
             <tr>
                 <td class="auto-style2">
                     <asp:Button ID="Button1" runat="server" Height="50px" style="text-align: center" Text="1" Width="58px" OnClick="Button1_Click" />
-                </td>
+                  </td>
                 <td class="auto-style2">
                     <asp:Button ID="Button2" runat="server" Height="50px" Text="2" Width="58px" OnClick="Button2_Click" />
                 </td>
