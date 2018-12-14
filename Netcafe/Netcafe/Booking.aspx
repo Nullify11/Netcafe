@@ -29,9 +29,9 @@
     <form id="form1" runat="server">
         <div>
         </div>
-        <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Text="Insert name net cafe"></asp:Label>
+        <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Text="The Hub - internet cafe"></asp:Label>
         <p>
-            Internet cafe booking system Asp.net</p>
+            Book your computers here</p>
         <table class="auto-style1">
             <tr>
                 <td class="auto-style2">

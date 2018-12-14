@@ -256,3 +256,8 @@ C:\Users\Kasper\source\repos\Nullify11\Netcafe\Netcafe\Netcafe\bin\System.Web.We
 C:\Users\Kasper\source\repos\Nullify11\Netcafe\Netcafe\Netcafe\bin\System.Web.WebPages.dll
 C:\Users\Kasper\source\repos\Nullify11\Netcafe\Netcafe\Netcafe\bin\System.Web.WebPages.Razor.dll
 C:\Users\Kasper\source\repos\Nullify11\Netcafe\Netcafe\Netcafe\bin\WebGrease.dll
+C:\Users\Kasper\Source\Repos\Nullify11\Netcafe\Netcafe\Netcafe\obj\Debug\Netcafe.Migrations.Bookings.resources
+C:\Users\Kasper\Source\Repos\Nullify11\Netcafe\Netcafe\Netcafe\obj\Debug\Netcafe.Migrations.UserBookings.resources
+C:\Users\Kasper\Source\Repos\Nullify11\Netcafe\Netcafe\Netcafe\obj\Debug\Netcafe.Migrations.Computers.resources
+C:\Users\Kasper\Source\Repos\Nullify11\Netcafe\Netcafe\Netcafe\obj\Debug\Netcafe.Migrations.User.resources
+C:\Users\Kasper\Source\Repos\Nullify11\Netcafe\Netcafe\Netcafe\obj\Debug\Netcafe.Migrations.BookingModelChange.resources
