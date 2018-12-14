@@ -85,9 +85,17 @@
         </dd>
         @if (User.IsInRole("Administrator"))
         {
-            <dt>Manage Users:</dt>
+            <dt>Manage Users Menu:</dt>
             <dd>
-                @Html.ActionLink("Manage Accounts", "Index", "ManageAccounts")
+                @Html.ActionLink("Accounts", "Index", "ApplicationUsers")
+            </dd>
+            <dt>Manage Bookings Menu:</dt>
+            <dd>
+                @Html.ActionLink("Bookings", "Index", "ManageBookings")
+            </dd>
+            <dt>Manage Computers Menu:</dt>
+            <dd>
+                @Html.ActionLink("Computers", "Index", "ManageComputers")
             </dd>
         }
 
